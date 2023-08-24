@@ -1,0 +1,15 @@
+app:
+  name: LAB-poi-map-app
+  namespace: LAB
+  cluster: .apps.j0i9yf30.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-atl/LAB-frontend
+  org: rhdh-atl
+  name: LAB-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: LAB/poi-map-app
+  tag: latest
